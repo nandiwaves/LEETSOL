@@ -1,1 +1,27 @@
+HASH MAPS
+stores data as KEY -> VALUE
+(COMMON USE)
+- Counting how many times something appears
+E.G: count = {}
+    for char in word:
+      count[char]=count.get(char, 0) + 1
 
+
+-if something exists
+if num in seen:
+  return true
+
+-remembering index
+nums = [10, 20, 30]
+seen ={}
+for index, num enumerate(nums):
+  seen[num] = index
+
+
+
+* Counting frequencies
+* Finding duplicates
+* Fast lookups
+* Tracking indexes
+* Comparing character counts
+* “Have I seen this before?”
