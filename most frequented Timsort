@@ -6,3 +6,5 @@ reverse=True)         → put the highest score first
 reverse=False  →  smallest to largest  (DEFAULT)
 reverse=True   →  largest to smallest
 
+sort()- changes the list directly returns nothing
+sorted()- keep ythe original rteurn a new sorted list
