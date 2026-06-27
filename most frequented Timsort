@@ -1,0 +1,8 @@
+sorted(count          → go through the keys in count
+key=lambda x:count[x] → use each key's value as the score
+reverse=True)         → put the highest score first
+
+
+reverse=False  →  smallest to largest  (DEFAULT)
+reverse=True   →  largest to smallest
+
